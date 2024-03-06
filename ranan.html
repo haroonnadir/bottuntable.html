@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Table</title>
+    <style>
+        body {
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #simple_table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        #simple_table td, #simple_table th {
+            text-align: left;
+            padding: 12px;
+            border: 1px solid #808080;
+        }
+
+        #simple_table tr:nth-child(even) {
+            background-color: #f8f7f7;
+        }
+
+        #simple_table tr:hover {
+            background-color: rgba(255, 255, 255, 0.916);
+        }
+
+        #simple_table tr td p a {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #88f871;
+            border-radius: 5px;
+            color: rgb(3, 6, 2);
+            font-family: 'Times New Roman', Times, serif sans-serif;
+            font-size: 16pt;
+        }
+
+        #simple_table tr td p a:hover {
+            background-color: #66FF00;
+            border: 2px solid rgb(12, 113, 3);
+            padding: 8px 18px;
+        }
+
+        #simple_table th {
+            font-size: 18pt;
+            background: #0d503f;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <table id="simple_table">
+        <thead>
+            <tr>
+                <th>Head 1</th>
+                <th>Head 2</th>
+                <th>Head 3</th>
+                <th>Head 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Patiassy Professional</td>
+                <td>Relaxed and Sporting</td>
+                <td>⭐⭐⭐⭐⭐</td>
+                <td><p class="MsoNormal"><a href="#">🛒Check Price Here</a></p></td>
+            </tr>
+            <tr>
+                <td>Row 2 Col 1</td>
+                <td>Row 2 Col 2</td>
+                <td>Row 2 Col 3</td>
+                <td>Row 2 Col 4</td>
+            </tr>
+            <tr>
+                <td>Row 3 Col 1</td>
+                <td>Row 3 Col 2</td>
+                <td>Row 3 Col 3</td>
+                <td>Row 3 Col 4</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+        <p class="MsoNormal"><a href="#">🛒Check Price Here</a></p>
+    </div>
+</body>
+</html>
